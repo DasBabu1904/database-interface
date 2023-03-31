@@ -1,0 +1,9 @@
+.header-background {
+    background-color: black;
+    color: bisque;
+}
+
+.Header-box {
+    display: flex;
+    justify-content: center;
+}
