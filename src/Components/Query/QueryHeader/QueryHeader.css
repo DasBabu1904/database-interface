@@ -1,0 +1,19 @@
+.Queryselect {
+    background-color: black;
+    color: beige;
+    border-radius: 10px;
+    font-size: xx-large;
+    padding: 20px;
+    width: 500px;
+    margin: 30px;
+}
+
+.Queryselect:hover {
+    background-color: rgb(66, 3, 3);
+    cursor: pointer;
+}
+
+.query-header {
+    display: grid;
+    justify-content: center;
+}
