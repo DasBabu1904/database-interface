@@ -1,0 +1,19 @@
+.SearchAllBooks {
+    height: 70px;
+    width: 500px;
+    background-color: black;
+    color: bisque;
+
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+.SearchAllBooks:hover {
+    background-color: rgb(66, 3, 3);
+    cursor: pointer;
+}
+
+.SearchAllBooks-component {
+    display: grid;
+    justify-content: center;
+}
