@@ -7,6 +7,9 @@ import BookEntry from './Components/BookEntry/BookEntry';
 import RecordEntry from './Components/RecordEntry/RecordEntry';
 import Query from './Components/Query/Query';
 import Userentry from './Components/Userentry/Userentry';
+import SearchBookTitle from './Components/Query/SearchBookTitle/SearchBookTitle';
+import SearchUserByID from './Components/Query/SearchUserByID/SearchUserByID';
+import AllAvailable from './Components/Query/AllAvailable/AllAvailable';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path='recordentry' element={<RecordEntry></RecordEntry>}></Route>
         <Route path='/query' element={<Query></Query>}></Route>
         {/* <Route path='/login' element={ }></Route> */}
+        <Route path='/search-with-title' element={<SearchBookTitle></SearchBookTitle>}></Route>
+        <Route path='/search-with-ID' element={<SearchUserByID></SearchUserByID>}></Route>
+        <Route path='/search-all-book' element={<AllAvailable></AllAvailable>}></Route>
       </Routes>
     </div>
   );
